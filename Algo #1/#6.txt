@@ -1,0 +1,21 @@
+//var 
+nom1,nom2,nom3 : caractere
+
+
+//code
+
+debut
+nom1 <-- saisir("Premiere lettre de votre nom 1: ")
+nom2 <-- saisir("Premiere lettre de votre nom 2: ")
+nom3 <-- saisir("Premiere lettre de votre nom 3: ")
+
+si nom1 < nom2 et nom2 < nom3 alors
+  debut
+    afficher("Vos nom sont dans un ordre croissant")
+  sinon
+    afficher("Vos nom ne sont pas croissant")
+  fin
+ fin
+fin
+
+

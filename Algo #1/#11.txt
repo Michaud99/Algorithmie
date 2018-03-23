@@ -1,0 +1,15 @@
+//var
+
+heure1, minute : entier
+
+
+//code
+debut
+heure1 <-- Saisir("Heure: ")
+minute <-- Saisir("Minute: ")
+
+si (minute = 59) alors
+  Afficher("Dans une minutes il sera : " & (heure + 1) & (minute + 1)
+sinon
+  Afficher("Dans une minutes il sera : " & heure & (minute + 1)
+fin

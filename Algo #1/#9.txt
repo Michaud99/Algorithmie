@@ -1,0 +1,20 @@
+//var 
+
+age : entier
+sexe: char
+
+//code
+debut
+age <-- saisir("Age: ")
+sexe <-- saisir(Sexe: ")
+
+si (sexe = 'f' et age < 18 et > 35) alors 
+  afficher("Vous ne payez pas d'impot")
+    sinon si (sexe = 'f' et age >= 18 et age <= 35)
+      afficher("Vous payez de l'impot")
+
+si (sexe = 'm' et age < 20) alors 
+  afficher("Vous ne payez pas d'impots")
+    sinon 
+      afficher("Vous payez des impots")
+fin  

@@ -1,0 +1,19 @@
+//var 
+
+valeur : entier
+
+
+//code
+debut
+
+faire
+valeur = 1
+valeur + valeur 
+
+
+tantque
+
+
+
+
+fin

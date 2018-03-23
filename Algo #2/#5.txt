@@ -1,0 +1,23 @@
+//var 
+
+nombre : entier
+compteur : entier
+plusgros :  entier
+tour : entier
+// code
+debut
+
+faire
+tour = 0
+plusgros = 0
+compteur = 0
+nombre <-- saisir("La valeur a rentrer est la #:" & compteur + 1 ) 
+tour + 1
+si nombre > plusgros
+nombre = plusgros
+
+tantque compteur <> 20
+
+Afficher("La plus grande valeur est: " & plusgros)
+
+fin

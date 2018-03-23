@@ -1,0 +1,22 @@
+//var 
+
+valeur : entier
+
+debut
+    valeur <-- saisir("Entrez une valeur: ")
+        si valeur > 0 alors
+          debut
+          afficher("Votre chiffre est non negatif")
+            sinon
+            debut
+              si valeur < 0 alors
+               debut 
+            afficher("Votre chiffre est negatif")
+             sinon
+             debut
+            afficher("Votre chiffre est de zero")
+                   fin
+                fin
+             fin
+          fin
+fin

@@ -1,0 +1,26 @@
+//var 
+
+number : entier
+total :  entier
+compteur :  entier
+
+compteur <-- 0
+//code
+debut
+
+faire
+
+number <-- saisir("Entrez un nombre de 1 a 10 : ")
+faire
+compteur + 1
+total <-- nombre * compteur
+afficher ("Table de 7: ")
+afficher ("Votre nombre" & number & " x " & compteur &  ;)
+
+tantque compteur <> 10
+
+tantque number < 10 && number > 0
+
+afficher("Vous n'avez pas choisi un chiffre entre 1 et 10")
+sortie
+fin

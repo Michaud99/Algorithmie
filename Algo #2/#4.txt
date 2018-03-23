@@ -1,0 +1,23 @@
+//var 
+
+nombre : entier
+compteur : entier
+plusgros :  entier
+tour : entier
+// code
+
+debut
+
+faire
+plusgros = 0
+compteur = 0
+nombre <-- saisir("Entrez 20 nombres consecutivement: ") 
+tour + 1
+si nombre < plusgros
+nombre = plusgros
+tantque tour <> 20
+
+Afficher("La plus grande valeur est: " & plusgros)
+
+
+fin

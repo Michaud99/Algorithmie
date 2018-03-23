@@ -1,0 +1,27 @@
+//var 
+
+age <-- entier
+
+
+//code
+
+debut
+ age <-- saisir("Entrer l'age de l'enfant: ")
+
+  if age < 1 alors
+  debut
+    affichage("Votre enfant est dans la categorie: etoile de mer")
+  fin
+  if age < 1 et age > 2 alors
+    debut
+      affichage("Votre enfant est dans la categorie: canard")
+    fin
+  if age < 2 et age > 3 alors
+    debut
+      affichage ("Votre enfant est dans la categorie: Tortue de mer")
+    fin
+  if age < 3 et age > 5 alors
+    debut
+      affichage("Votre enfant est dans la categorie: Loutre de mer")
+    fin
+fin

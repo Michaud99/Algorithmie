@@ -1,0 +1,16 @@
+//var 
+
+rep = entier
+
+//code
+debut
+
+faire 
+rep <-- saisir("Entrez un nombre entre 10 et 20: ")
+si rep < 10 
+afficher("Plus grand!")
+sinon si rep > 20
+afficher("Plus petit!")
+tanque rep > 10 && rep < 20
+
+fin

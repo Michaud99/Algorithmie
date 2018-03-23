@@ -1,0 +1,16 @@
+//var 
+
+valeur : entier
+
+debut
+    valeur saisie("Entrez une valeur: ")
+        si
+            debut
+            valeur <= 0
+            afficher("Votre chiffre est non negatif")
+               sinon
+               debut
+               afficher("Votre chiffre est negatif")
+               fin
+             fin
+fin

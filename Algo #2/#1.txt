@@ -1,0 +1,14 @@
+//var 
+
+rep: entier
+
+
+// code
+
+debut 
+
+faire
+rep <-- saisir("Entrez un nombre entre 1 et 3: ")
+ 
+tantque rep <> 1 || rep <> 3
+fin

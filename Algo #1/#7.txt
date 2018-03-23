@@ -1,0 +1,20 @@
+//var
+
+facture: reel
+nbr_photocopie : entier
+
+
+//code
+debut
+nbr_photocopie <-- saisir("Entrer le nombre de photocopie effectuer: ")
+
+  si nbr_photocopie <= 10 alors
+    facture = 0.10 * nbr_photocopie
+    afficher("Votre fature est de: "& facture)
+  si nbr_photocopie > 10 et nbr_photocopie <= 30  alors
+    facture = 1 + (0.09 * nbr_photocopie)
+    afficher("Votre fature est de: "& facture)
+  si nbr_photocopie > 30 alors
+    facture = 2.8 + (0.08 * nbr_photocopie)
+    afficher("Votre fature est de: " & facture)
+fin

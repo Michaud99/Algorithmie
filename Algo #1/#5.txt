@@ -1,0 +1,22 @@
+//var 
+
+nbr1,nbr2,nbr3 : entier
+
+
+//code
+
+debut
+nbr1 <-- saisir("Nombre 1: ")
+nbr2 <-- saisir("Nombre 2: ")
+nbr3 <-- saisir("Nombre 3: ")
+
+
+  si nbr1 < nbr2 et nbr2 < nbr3 alors
+    debut
+    affichage("Vos nombre sont dans un ordre croissant")
+      sinon
+        debut
+        affichage("Vos nombre ne sont pas ranger en ordre")
+        fin
+    fin
+fin

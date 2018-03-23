@@ -1,0 +1,19 @@
+//var
+
+age : entier
+race : bool
+sexe: char
+troll : char
+
+//code
+
+sexe <-- saisir("sexe:(F/M): ")
+age <-- saisir("Age: ")
+troll <-- saisir("Etes vous un troll(y/n): ")
+si (troll = 'y')
+  race = true
+sinon
+  race = false
+
+
+

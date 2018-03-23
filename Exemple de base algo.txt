@@ -1,0 +1,17 @@
+//Variable
+nombre A: entier
+nom,prenom: chaine
+nombre_Virgule : reel
+dateFacture : date
+
+
+//Code
+debut 
+
+nombre a ? 
+
+
+
+
+
+fin 
